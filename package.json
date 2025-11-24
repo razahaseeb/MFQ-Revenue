@@ -1,0 +1,18 @@
+{
+  "name": "mfq-contact-api-sample",
+  "version": "1.0.0",
+  "description": "Simple Express API to receive contact form submissions and send email via Nodemailer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.3"
+  }
+}
